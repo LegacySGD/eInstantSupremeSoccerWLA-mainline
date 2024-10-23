@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<family code="2098" desc="Lottery Game" organizationName="Interactive" studio="crdc">
+	<game name="Supreme Football WLA" version="1.0.21" gameengineversion="2" gamelogicversion="1.0"
+		number="0" 
+		gamegroup="eGames" 
+		gametype="L" 
+		jackpotid="" 
+		loadprevstate="N" 
+		numberGenerator="RNG" 
+		spots="" 
+		productId="1" 
+		betMultipliers="50,100,200,300,500,1000,2000,5000,10000,200000,500000,1000000"
+		languages="en,en_US,fr_BE,nl_BE,de_BE,pt_BR,es_PY" 
+        skbPlatformVersion="1.4.0"
+        merchandisePrize="N"
+        stateful="N">
+
+		<!-- LNB $0.50, $1, $2, $3, $5, $10 -->
+		<paymodel name="SupremeFootball : 300-2098-001" 
+			modelid="300-2098-001" 
+			cointhreshold="0" 
+			confidentlevelpct="95" 
+			fixedminmax="Y" 
+			hibethold="5.06" 
+			lobethold="5.06" 
+			hibetsd="3.641" 
+			lobetsd="3.641" 
+			maxmainbetwin="0" 
+			maxsidebetwin="0" 
+			maxcoins="1000" 
+			mincoins="0" 
+			revealId="2098" 
+			revealVersionId="2098" /> 
+		<paymodelConfig clienttype="HTML" configcode="IXML" modelid="300-2098-001" /> 
+		<paymodelConfig clienttype="HTML" configcode="PHLP" modelid="300-2098-001" /> 
+
+		<!-- RGS COM $5 -->
+		<!--<paymodel name="SupremeFootball : 300-2098-002" 
+			modelid="300-2098-002" 
+			cointhreshold="0" 
+			confidentlevelpct="95" 
+			fixedminmax="Y" 
+			hibethold="5.06" 
+			lobethold="5.06" 
+			hibetsd="3.641" 
+			lobetsd="3.641" 
+			maxmainbetwin="0" 
+			maxsidebetwin="0" 
+			maxcoins="1000" 
+			mincoins="0" 
+			revealId="2098" 
+			revealVersionId="2098" /> 
+		<paymodelConfig clienttype="HTML" configcode="IXML" modelid="300-2098-002" /> 
+		<paymodelConfig clienttype="HTML" configcode="PHLP" modelid="300-2098-002" /> -->
+
+		<!-- BRZ $0.50, $1, $2, $5, $10, $20, $50, $100 -->
+		<paymodel name="SupremeFootball : 300-2098-003" 
+			modelid="300-2098-003" 
+			cointhreshold="0" 
+			confidentlevelpct="95" 
+			fixedminmax="Y" 
+			hibethold="35.00" 
+			lobethold="35.00" 
+			hibetsd="3.641" 
+			lobetsd="3.641" 
+			maxmainbetwin="0" 
+			maxsidebetwin="0" 
+			maxcoins="1000" 
+			mincoins="0" 
+			revealId="2098" 
+			revealVersionId="2098" /> 
+		<paymodelConfig clienttype="HTML" configcode="IXML" modelid="300-2098-003" /> 
+		<paymodelConfig clienttype="HTML" configcode="PHLP" modelid="300-2098-003" />
+
+		<!-- KY -->
+		<paymodel name="SupremeFootball : 300-2098-004" 
+			modelid="300-2098-004" 
+			cointhreshold="0" 
+			confidentlevelpct="95" 
+			fixedminmax="Y" 
+			hibethold="35.00" 
+			lobethold="35.00" 
+			hibetsd="3.641" 
+			lobetsd="3.641" 
+			maxmainbetwin="0" 
+			maxsidebetwin="0" 
+			maxcoins="1000" 
+			mincoins="0" 
+			revealId="4110" 
+			revealVersionId="4110" /> 
+		<paymodelConfig clienttype="HTML" configcode="IXML" modelid="300-2098-004" /> 
+		<paymodelConfig clienttype="HTML" configcode="PHLP" modelid="300-2098-004" />
+
+		<!-- PYR -->
+		<paymodel name="SupremeFootball : 300-2098-005" 
+			modelid="300-2098-005" 
+			cointhreshold="0" 
+			confidentlevelpct="95" 
+			fixedminmax="Y" 
+			hibethold="42.00" 
+			lobethold="38.00" 
+			hibetsd="3.641" 
+			lobetsd="3.641" 
+			maxmainbetwin="0" 
+			maxsidebetwin="0" 
+			maxcoins="1000" 
+			mincoins="0" 
+			revealId="4869" 
+			revealVersionId="4850" /> 
+		<paymodelConfig clienttype="HTML" configcode="IXML" modelid="300-2098-005" /> 
+		<paymodelConfig clienttype="HTML" configcode="PHLP" modelid="300-2098-005" />
+
+		<denom currencycode="BRL" amount="0.01,0.03"/>
+		<denom currencycode="EUR" amount="0.01" /> 
+		<denom currencycode="PYG" amount="0.01" /> 
+		<denom currencycode="USD" amount="0.01" /> 
+	</game> 
+</family>
